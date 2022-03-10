@@ -15,12 +15,18 @@ const signin_step2 = ()=>{
           <FontAwesomeIcon icon={faCaretRight} size="2x" color="gray"/>
         </div>
 
-        <p className="font-sans ">이메일</p>
+        <h1 className="pt-4 font-bold">2.회원정보입력</h1>
+  
+        <h4 className="pt-2">윈윈 계정으로 사용되는 회원정보를 입력해 주세요</h4> 
+        <p className="pt-4" >이메일</p>
         <input type="text"  placeholder="이메일을 입력해주세요"/><br></br>
-        <p className="font-sans ">닉네임</p>
+        <hr></hr>
+        <p >닉네임</p>
         <input type="text"  placeholder="ex)홍길동"/><br></br>
-        <p className="font-sans ">생년월일</p>
+        <hr></hr>
+        <p >생년월일</p>
         <input type="text"  placeholder="ex)19950715"/><br></br>
+        <hr></hr>
         <Link href="/signin_step3" passHref><center><button><a>다음</a></button></center></Link>
         </div>
 

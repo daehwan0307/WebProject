@@ -3,6 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import KakaoLoginButton from "../components/KakaoLoginButton";
 import Link from "next/link";
+import EmailSigninModal from '../components/EmailSigninModal';
 
 export default function Home() {
   return (
@@ -11,7 +12,7 @@ export default function Home() {
             <center><Image   src="/favicon.ico" width={200} height={300}/></center>
             <center><KakaoLoginButton/></center>
           <div className='justify-center flex ml-16 mr-16 '> 
-            <Link className="" href="/signin" passHref>이메일로 회원가입</Link>
+            <EmailSigninModal/>
             <div className="flex-grow"></div>
             <Link href="/signin" passHref>이메일로 로그인</Link>
           </div>

@@ -15,6 +15,7 @@ const signin_step3 = ()=>{
           <FontAwesomeIcon icon={faCaretRight} size="2x" color="black"/>
           <FontAwesomeIcon icon={faCaretRight} size="2x" color="black"/>
         </div>
+        
 
         <br/>
         <h4>홍길동님 회원가입이 완료되었습니다.</h4>
