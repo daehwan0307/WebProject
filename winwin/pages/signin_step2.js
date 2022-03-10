@@ -27,7 +27,9 @@ const signin_step2 = ()=>{
         <p >생년월일</p>
         <input type="text"  placeholder="ex)19950715"/><br></br>
         <hr></hr>
-        <Link href="/signin_step3" passHref><center><button><a>다음</a></button></center></Link>
+        <div className="p-2 ">
+        <Link href="/signin_step3" passHref><center><button><h1 className="font-bold">다음</h1></button></center></Link>
+        </div>
         </div>
 
     );

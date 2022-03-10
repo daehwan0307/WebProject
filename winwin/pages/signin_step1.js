@@ -49,7 +49,7 @@ const  signin_step1 = ()=>{
     </div>
     
     <div className='pt-2'>
-      <Link href="/signin_step2" passHref><center><button ><a>다음</a></button></center></Link>
+      <Link href="/signin_step2" passHref><center><button ><h1 className='font-bold'>다음</h1></button></center></Link>
     </div>
   </div>
     );
