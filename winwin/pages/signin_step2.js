@@ -6,7 +6,7 @@ faCaretRight
 
 const signin_step2 = ()=>{
     return(
-        <div className="p-8 ">
+        <div className="p-8 sm:container">
         <div className="flex ">
           <h1 className="font-bold text-2xl">SNS 회원가입</h1> 
           <div className="flex-grow"></div>
