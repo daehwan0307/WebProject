@@ -1,4 +1,4 @@
-
+import Image from 'next/image'
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -24,21 +24,33 @@ const  signin_step1 = ()=>{
 
 
     <div className="flex">
-      <img src="hh.jpg"></img> <p><a className="font-bold">카카오 계정으로 가입</a></p>
+      <Image   src="/kakaolink_btn_medium.png" width={40} height={40}/>
+      <p><a className="pl-4 font-bold">카카오 계정으로 가입</a></p>
+    </div>
+    <div className='pt-2'>
+      <input type="checkbox"></input>
+      <label>전체동의</label>
+      <br></br>
+    </div>
+    <div className='pt-2'>
+      <input type="checkbox"></input>
+      <label>만 14세 이상입니다(필수)</label
+      ><br></br>
     </div>
     <div>
       <input type="checkbox"></input>
-      <label>전체동의</label><br></br>
+      <label>이용약관 동의(필수)</label>
+      <br></br>
+    </div>
+    <div>  
       <input type="checkbox"></input>
-      <label>만 14세 이상입니다(필수)</label><br></br>
-      <input type="checkbox"></input>
-      <label>이용약관 동의(필수)</label><br></br>
-      <input type="checkbox"></input>
-      <label>개인정보취급방침 동의(필수_)</label><br></br>
+      <label>개인정보취급방침 동의(필수)</label>
+      <br></br>
     </div>
     
+    <div className='pt-2'>
       <Link href="/signin_step2" passHref><center><button ><a>다음</a></button></center></Link>
-    
+    </div>
   </div>
     );
     

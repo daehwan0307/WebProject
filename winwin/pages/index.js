@@ -1,6 +1,5 @@
-import Head from 'next/head'
+
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
 import KakaoLoginButton from "../components/KakaoLoginButton";
 import Link from "next/link";
 import EmailSigninModal from '../components/EmailSigninModal';
