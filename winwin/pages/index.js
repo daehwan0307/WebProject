@@ -1,4 +1,3 @@
-
 import Image from 'next/image'
 import KakaoLoginButton from "../components/KakaoLoginButton";
 import Link from "next/link";
