@@ -2,13 +2,16 @@ import Image from 'next/image'
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-faCaretRight
+faCaretRight,
+faX,faArrowLeft
 } from "@fortawesome/free-solid-svg-icons";
 
 const  signin_step1 = ()=>{
 
     return(
   <div className="p-8 sm:container ">
+    <div className='flex justify-between mb-4'><FontAwesomeIcon icon={faArrowLeft} size="1.5x" color="black"/>
+      <FontAwesomeIcon icon={faX} size="1.5x" color="black"/> </div>
     <div className="flex ">
       <h1 className="font-bold text-2xl">SNS 회원가입</h1> 
       <div className="flex-grow"></div>
