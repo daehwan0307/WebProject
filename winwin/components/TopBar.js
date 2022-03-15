@@ -15,7 +15,7 @@ return (
             <div className="space-x-6">
               <FontAwesomeIcon icon={faMagnifyingGlass} size="1.5x" color="black"/>
               <FontAwesomeIcon icon={faAlignJustify} size="1.5x" color="black"/>
-              <FontAwesomeIcon icon={faBell} size="1.5x" color="black"/>
+              <Link href="/alram"><FontAwesomeIcon icon={faBell} size="1.5x" color="black"/></Link>
             </div>
         </div>
 
