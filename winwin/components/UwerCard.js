@@ -3,8 +3,8 @@ import { faBook, faMusic ,faHeart, faComment } from "@fortawesome/free-solid-svg
 
 const UserCard =()=>{
     return(
-        <div className="sm:container mt-4 p-4">
-            <div className="flex justify-between">
+        <div className="sm:container p-2 ">
+            <div className="flex justify-between ">
                 <div>
                 <div><FontAwesomeIcon icon={faMusic} size="2x" color="black"/></div><span className="font-light text-xs">피아노</span>
                 </div>
@@ -14,10 +14,10 @@ const UserCard =()=>{
               
             </div>
             <div>
-                <p1 className="font-bold">피아노를 가르쳐 드리고 영어를 배우고 싶어요.</p1>
+                <p1 className="font-bold ">피아노를 가르쳐 드리고 영어를 배우고 싶어요.</p1>
             </div>
             <button className="rounded-md bg-green-300 text-white text-sm font-bold"> 대기 </button>
-            <div className="mb-2 flex justify-between mt-2">
+            <div className="mb-2 flex justify-between ">
                 <div className="font-light text-xs">흥덕구 복대동 / 13분전</div>
                 <div className="space-x-4"><FontAwesomeIcon icon={faHeart} size="1.5x" color="black"/>5
                 <FontAwesomeIcon icon={faComment} size="1.5x" color="black"/>5</div>
