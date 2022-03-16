@@ -22,7 +22,7 @@ const choice_location =()=>
                 지역선택 하러가기
             </div ></Link>
             <div className="rounded-lg bg-gray-300 text-center mt-4">
-                온라인 교환만 할래요
+                온라인 교환만 할래요!
             </div>
         </div>
         
