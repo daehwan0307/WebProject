@@ -5,7 +5,7 @@ const BomttomBar=()=>{
     return(
 
         <div className="flex justify-between  sm: container">
-   
+            
             <div>
                 <div><FontAwesomeIcon icon={faHome} size="2x" color="black"/><br/><span className="font-light text-xs">홈</span></div>
             </div>
