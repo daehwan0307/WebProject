@@ -13,7 +13,7 @@ return (
               <FontAwesomeIcon icon={faAngleDown} size="1.5x" color="black"/>
             </div></Link>
             <div className="space-x-6">
-              <FontAwesomeIcon icon={faMagnifyingGlass} size="1.5x" color="black"/>
+              <Link href="/talent_search"><FontAwesomeIcon icon={faMagnifyingGlass} size="1.5x" color="black"/></Link>
               <FontAwesomeIcon icon={faAlignJustify} size="1.5x" color="black"/>
               <Link href="/alram"><FontAwesomeIcon icon={faBell} size="1.5x" color="black"/></Link>
             </div>
