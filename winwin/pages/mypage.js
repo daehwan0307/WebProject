@@ -23,7 +23,7 @@ const mypage =()=>
         <hr></hr>
         
         <div className='mt-4'>
-            <center><Image src="/kakaolink_btn_medium.png" width={60} height={60} className="rounded-3xl"></Image></center>
+        <Link href="/profile_photo"><center><Image src="/kakaolink_btn_medium.png" width={60} height={60} className="rounded-3xl"></Image></center></Link>
             <center> <p1 className="font-">홍길동</p1></center>
         </div>
 

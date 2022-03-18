@@ -14,6 +14,7 @@ const main =()=>{
         <UserCard/>
         <UserCard/>
         <UserCard/>
+        
         <div className="float-right p-4">
         <Link href="/write" passHref><FontAwesomeIcon icon={faPlusCircle} size="3x" color="black"/></Link>
         </div>
