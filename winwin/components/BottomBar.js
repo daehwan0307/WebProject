@@ -16,7 +16,7 @@ const BomttomBar=()=>{
             </div>
 
             <div>
-                <div><FontAwesomeIcon icon={faPerson} size="2x" color="black"/><br/><span className="font-light text-xs" >마이페이지</span></div>
+            <Link href="/mypage"><div><FontAwesomeIcon icon={faPerson} size="2x" color="black"/><br/><span className="font-light text-xs" >마이페이지</span></div></Link>
             </div>
               
         </footer>
